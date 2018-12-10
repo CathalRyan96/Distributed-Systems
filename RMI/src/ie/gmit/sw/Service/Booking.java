@@ -9,7 +9,7 @@ public class Booking implements Serializable{
 		/**
 		 * 
 		 */
-		private static final long serialVersionUID = 3374052821987961047L;
+		private static final long serialVersionUID = 1L;
 		private int orderNum;
 		private String firstName;
 		private String surname;
