@@ -44,5 +44,8 @@ persistence and CRUD functionality using a database of your choice (e.g. JDBC).
  ServiceSetup will contain a main method which instantiates DatabaseServiceImpl and binds the
 Remote Object into the RMI registry using the name “databaseservice”.
 
-<h3>Problems I encountered</h3>
-I was unable to fully connect both the REST side and the RMI side of the project together.
+<h2>Problems I encountered</h2>
+I didn't get the project working fully so some of the features mentioned do not work as of now.
+I had a good idea of how both the REST and RMI components should work but I couldn't fully figure out how to get them to work together
+
+
