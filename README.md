@@ -17,17 +17,23 @@ to be Created, Read, Updated or Deleted. (N.B. do not spend too much time on the
 of the Web Client; basic unstyled HTML forms, tables and buttons etc. will suffice as this is not a
 client-side web development project). The Web Client will communicate with the RESTful Web
 Service below, using XML for marshalling and unmarshalling of data.
+
+
 2. RESTful Web Service (JAX-RS/Jersey)
  Design a RESTful Web Service using JAX-RS/Jersey which will act as the gateway for all clients
 which wish to use the Car Hire Booking System. Clients will be able to access CRUD functionality for
 car hire bookings using the GET, POST, PUT and DELETE methods. This class will be responsible for
 marshalling/unmarshalling data to/from XML for all Web Client requests/responses. This class will
 also act as a client for the RMI Database Server.
+
+
 3. Data Modelling
  An appropriate data model will be required for all classes/entities which are part of a car hire booking
 (e.g. Customer, Vehicle, Booking). This data model will be in the form of an XML Schema Definition.
 The xjc (XML to Java Converter) utility may then be used to generate the appropriate Java classes from
 the schema.
+
+
 4. RMI Database Server
  A remote interface called DatabaseService should expose remote methods which provide CRUD
 (Create, Read, Update and Delete) functionality for each of the entities which have you modelled. This
