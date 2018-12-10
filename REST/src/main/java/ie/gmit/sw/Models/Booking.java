@@ -1,0 +1,43 @@
+package ie.gmit.sw.Models;
+
+import java.io.Serializable;
+
+public class Booking implements Serializable{
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3374052821987961047L;
+	private int orderNum;
+	private String firstName;
+	private String surname;
+	private String carManufacturer;
+	
+	
+	public int getOrderNum() {
+		return orderNum;
+	}
+	public void setOrderNum(int orderNum) {
+		this.orderNum = orderNum;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getSurname() {
+		return surname;
+	}
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+	public String getCarManufacturer() {
+		return carManufacturer;
+	}
+	public void setCarManufacturer(String carManufacturer) {
+		this.carManufacturer = carManufacturer;
+	}
+	
+
+}

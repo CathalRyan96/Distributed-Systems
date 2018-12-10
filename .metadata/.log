@@ -680,3 +680,15 @@ java.net.UnknownHostException: spring.io
 
 !ENTRY org.eclipse.jface.text 2 0 2018-12-10 11:18:20.675
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-10 11:58:09.362
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-10 11:58:09.362
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-10 11:58:09.628
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-10 11:58:09.628
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
