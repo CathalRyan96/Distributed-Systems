@@ -3,7 +3,7 @@ package ie.gmit.sw.Service;
 import java.rmi.*;
 import java.rmi.registry.*;
 
-public class Server {
+public class ServiceSetup {
 	public static void main(String[] args) throws Exception{
 		//A string, representing the message we want to associate with our Message object
 		String myBookingStr = "Hello from 127.0.0.1";

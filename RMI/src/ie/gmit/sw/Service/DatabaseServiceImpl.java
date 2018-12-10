@@ -3,11 +3,11 @@ package ie.gmit.sw.Service;
 import java.rmi.*;
 import java.rmi.server.*;
 
-public class BookingServiceImpl extends UnicastRemoteObject implements BookingService {
+public class DatabaseServiceImpl extends UnicastRemoteObject implements DatabaseService {
 	private static final long serialVersionUID = 1L;
 	private Booking booking;
 	
-	public BookingServiceImpl(Booking b) throws RemoteException{
+	public DatabaseServiceImpl(Booking b) throws RemoteException{
 		this.booking = b;
 	}
 	
