@@ -7,6 +7,32 @@
 <title>Insert title here</title>
 </head>
 <body>
+<table>
+			<tr>
+				<td>Booking ID:</td>
+				<td><form:input path="id"></form:input></td>
+				<td><form:errors path="id"></form:errors></td>
+		
+			</tr>
+			<tr>
+				<td>First Name:</td>
+				<td><form:input path="fname"></form:input></td>
+				<td><form:errors path="fname"></form:errors></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><form:input path="lastname"></form:input></td>
+				<td><form:errors path="lastname"></form:errors></td>
+			</tr>
+			<tr>
+				<td>Manufacturer:</td>
+				<td><form:input path="man"></form:input></td>
+				<td><form:errors path="man"></form:errors></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Add" /></td>
+			</tr>
+		</table>
 
 </body>
 </html>

@@ -7,6 +7,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import ie.gmit.sw.Models.Booking;
+import ie.gmit.sw.RMI.DatabaseService;
 
 /**
  * Root resource (exposed at "myresource" path)
@@ -26,9 +27,11 @@ public class MyResource {
         return "Got it!";
     }
     
-   /* @POST
-    @PATH("newBooking")
+    //trying to display all bookings
+    @GET
+    @Path("newBooking")
     public Booking newBooking(Booking booking) {
-    	System.out.println("TEST");
-    }*/
+    	DatabaseService ds;
+		return booking;
+    }
 }

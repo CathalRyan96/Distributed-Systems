@@ -8,5 +8,23 @@
 </head>
 <body>
 
+<table>
+			<tr>
+				<th>Booking Id</th>
+				<th>First Name</th>
+				<th>Last name</th>
+				<th>manufacturer</th>
+			</tr>
+			
+			<c:forEach items="${cars}" var="ships">
+				<tr>
+					<td>${cars.id}</td>
+					<td>${cars.fname}</td>
+					<td>${cars.lname}</td>
+					<td>${cars.manufacturer}</td>
+				</tr>
+			</c:forEach>
+		</table>
+
 </body>
 </html>
